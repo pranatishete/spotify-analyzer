@@ -1,0 +1,66 @@
+<html>
+
+  <head>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  </head>
+
+  <body class = "bg-black">
+    <section class="bg-black-100">
+        <div class="container mx-auto px-6 py-20">
+          <h2 class="text-4xl font-bold text-center text-purple-400 mb-8">
+            Overall Analysis
+          </h2>
+          <div class="flex flex-wrap bg-black">
+            <div class="w-full md:w-1/4 px-2 mb-4">
+              <div class="bg-white shadow py-2 bg-purple-700 h-24">
+                <p class="text-gray-100 text-base text-lg px-2 text-center">Total number of playlist</p>
+                <p class="justify-center text-base text-5xl px-6 text-center mb-16">
+                  {{playlist}}
+                </p>
+              </div>
+            </div>
+            <div class="w-full md:w-1/4 px-2 mb-4 ">
+              <div class="bg-white rounded shadow py-2  bg-purple-700">
+                <p class="text-gray-100 text-base text-lg px-6 text-center">Total number of tracks</p>
+                <p class="justify-center text-base text-5xl px-6 text-center">
+                 {{trackno}}
+                </p>
+              </div>
+            </div>
+            <div class="w-full md:w-1/4 px-2 mb-4">
+              <div class="bg-white rounded shadow py-2 bg-purple-700">
+                <p class="text-gray-100 text-base text-lg px-6 text-center">Albums</p>
+                <p class="justify-center text-base text-5xl px-6 text-center">
+                  {{albumno}}
+                </p>
+              </div>
+            </div>
+            <div class="w-full md:w-1/4 px-2 mb-4">
+              <div class="bg-white rounded shadow py-2  bg-purple-700">
+                <p class="text-gray-100 text-base text-lg px-6 text-center">Total no of Artist tracks added</p>
+                <p class="justify-center text-base text-5xl px-6 text-center">
+                  {{artistno}}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <div class="flex bg-black sm:block md:block lg:flex xl:flex" >
+        <div class="flex-1 text-gray-700 text-center bg-black px-4 py-2 m-4 h-120 w-120">
+          <img src= {{tracks_graph}} alt="Monitoring" /></div>
+        <div class="flex-1 text-gray-700 text-center bg-black px-4 py-2 m-4 h-120 w-120">
+          <img src= {{album_graph}} alt="Monitoring"/></div>
+        </div>
+        <div class="flex-1 text-gray-700 text-center bg-black px-4 py-2 m-4 h-120 w-120">
+          <img src= {{artist_graph}} alt="Monitoring" />
+        </div>
+      </div>
+
+
+
+
+  </body>
+
+</html>

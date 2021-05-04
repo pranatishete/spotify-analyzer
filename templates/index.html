@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  </head>
+
+  <body class="h-screen flex flex-col justify-start items-center bg-black mt-12">
+    <div class="py-20 w-11/12 h-4/12 mb-8" style="background: linear-gradient(90deg, #667eea 0%, #764ba2 100%)">
+      <div class="container  px-6">
+        <h2 class="text-4xl font-bold mb-2 text-white px-4">
+          Spotify Profile Analysis using REST API
+        </h2>
+      </div>
+    </div>
+      <label for="full_name" class="text-purple-700 text-sm font-bold select-none">Spotify Profile URL</label>
+      <form action = "{{ url_for('result') }}" method = "POST">
+      <input type ="text" name="urllink" placeholder="https://open.spotify.com/user/{user_id}?si=tN4TqO2CREKbOn3yu19fdQ" class="mt-2 shadow border rounded-lg w-4/6 px-3 py-2 text-gray-700 focus:bg-blue-100 ">
+      <input type ="submit" value="submit" class="bg-purple-700 mt-4 px-3 h-8 rounded-lg justify-center"></button>
+      </form>
+      <section class="container mx-auto px-6 p-10">
+        <h2 class="text-4xl font-bold text-center text-gray-800 mb-8">
+          How to get your Spotify Profile Link
+        </h2>
+        <div class="flex items-center flex-wrap mb-20">
+          <img src="/static/images/step1.png" alt="Monitoring" />
+          </div>
+        </div>
+
+        <div class="flex items-center flex-wrap mb-20">
+        
+            <img src="/static/images/step2.png" alt="Reporting" />
+      
+        </div>
+
+        
+        <div class="flex items-center flex-wrap mb-20">
+            <img src="/static/images/step3.png" alt="Reporting" />
+        </div>
+
+
+        <div class="flex items-center flex-wrap mb-20">
+            <img src="/static/images/step4.png" alt="Reporting" />
+          </div>
+
+
+      </section>
+  </body>
+
+</html>
