@@ -5,8 +5,10 @@
 
 Language : Python
 
-For API -  Flask, Requets, Multithreading
-For visualization : 
+For API -  Flask, Requets, Multithreading 
+
+For visualization :  Matplotlib
+
 For Frontend : HTML,SASS
 
 Created API wrapper to analyze users spotfiy playlist
