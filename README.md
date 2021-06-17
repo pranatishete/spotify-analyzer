@@ -24,8 +24,10 @@ Indepth Analysis
 2. Top Artist Played in Each Year
 3. Top Albums Played in Each Year
 
+
+# Front Page to enter the spotify profile url
 ![image](https://user-images.githubusercontent.com/37587359/122202201-6b0a2d00-ceba-11eb-819c-a623df0802a9.png)
 
 
-
+# Analysis of user entered profile
 ![image](https://user-images.githubusercontent.com/37587359/122201993-39916180-ceba-11eb-95da-12192dc48c33.png)
